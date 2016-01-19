@@ -1,0 +1,35 @@
+{
+  "name": "nightmare-custom-event",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "./nightmare-custom-event.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rosshinkley/nightmare-custom-event.git"
+  },
+  "author": "Ross Hinkley",
+  "keywords": [
+    "nightmare",
+    "phantomjs",
+    "event"
+  ],
+  "dependencies": {
+    "debug": "^2.2.0",
+    "nightmare":"^2.1.0"
+  },
+  "devDependencies": {
+    "rimraf": "^2.4.3",
+    "mkdirp": "^0.5.1",
+    "basic-auth": "^1.0.3",
+    "basic-auth-connect": "^1.0.0",
+    "chai": "^3.4.1",
+    "express": "^4.13.3",
+    "mocha-generators": "^1.2.0",
+    "mocha": "^2.3.0",
+    "multer": "1.1.0",
+    "serve-static": "^1.10.0"
+  }
+}
