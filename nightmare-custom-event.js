@@ -2,7 +2,7 @@ var Nightmare = require('nightmare'),
   debug = require('debug')('nightmare:custom-event');
 
 Nightmare.action('bind',
-  function(ns, parent, win, renderer, done) {
+  function(ns, options, parent, win, renderer, done) {
     var sliced = require('sliced');
     parent.on('bind', function(name) {
       if (renderer.listeners(name)
@@ -33,7 +33,7 @@ Nightmare.action('bind',
   });
 
 Nightmare.action('unbind',
-  function(ns, parent, win, renderer, done) {
+  function(ns, options, parent, win, renderer, done) {
     parent.on('unbind', function(name) {
       renderer.removeAllListeners(name);
       parent.emit('unbind');
