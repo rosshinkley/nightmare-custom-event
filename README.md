@@ -1,5 +1,7 @@
 # nightmare-custom-event
 
+Allows for adding custom events to [Nightmare](http://nightmarejs.org).
+
 ## Usage
 Require the library: 
 
