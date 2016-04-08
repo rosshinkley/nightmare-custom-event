@@ -1,5 +1,4 @@
-nightmare-custom-event
-======================
+# nightmare-custom-event
 
 ## Usage
 Require the library: 
