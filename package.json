@@ -1,6 +1,6 @@
 {
   "name": "nightmare-custom-event",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "license": "MIT",
   "main": "./nightmare-custom-event.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rosshinkley/nightmare-custom-event.git"
+    "url": "https://github.com/rosshinkley/nightmare-custom-event"
   },
   "author": "Ross Hinkley",
   "keywords": [
