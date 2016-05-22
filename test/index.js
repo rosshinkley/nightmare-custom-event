@@ -35,7 +35,7 @@ var base = 'http://localhost:7500/';
 
 describe('Nightmare Custom Events', function() {
   before(function(done) {
-    require('../nightmare-custom-event');
+    require('../nightmare-custom-event')(Nightmare);
     server.listen(7500, done);
   });
 

@@ -18,8 +18,10 @@
     "event"
   ],
   "dependencies": {
-    "debug": "^2.2.0",
-    "nightmare": "^2.3.0"
+    "debug": "^2.2.0"
+  },
+  "peerDependencies":{
+    "nightmare": ">= 2.3.0"
   },
   "devDependencies": {
     "rimraf": "^2.4.3",
