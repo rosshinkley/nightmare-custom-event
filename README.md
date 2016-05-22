@@ -3,7 +3,7 @@
 Allows for adding custom events to [Nightmare](http://nightmarejs.org).
 
 ## Usage
-Require the library and pass the Nightmare library as a reference:
+Require the library and pass the Nightmare library as a reference to attach the plugin actions:
 
 ```js
 var Nightmare = require('nightmare');
