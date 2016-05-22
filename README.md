@@ -3,10 +3,11 @@
 Allows for adding custom events to [Nightmare](http://nightmarejs.org).
 
 ## Usage
-Require the library: 
+Require the library and pass the Nightmare library as a reference:
 
 ```js
-require('nightmare-custom-event')
+var Nightmare = require('nightmare');
+require('nightmare-custom-event')(Nightmare);
 ```
 
 ... and then you're able to use `bind` and `unbind`.
