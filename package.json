@@ -1,6 +1,6 @@
 {
   "name": "nightmare-custom-event",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "license": "MIT",
   "main": "./nightmare-custom-event.js",
   "description":"Add custom events to NightmareJS",
